@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Students</title>
+    <style>
+        .row{
+            margin-right: 15px;
+            margin-left: 15px;
+
+        }
+        .card{
+            border-radius: 25px;
+        }
+    </style>
+
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">SchoolMS</a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/teachers}">Teacher</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/students}">Student</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li> -->
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+        </div>
+    </nav>
+</div>
+<br>
+
+<div class="row">
+    <div class="col-sm-2">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Nursery</h5>
+                <!--    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                <a th:href="@{/nurserys}" class="btn btn-primary">Click</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">KG</h5>
+
+                <a href="kg.html" class="btn btn-primary">Click</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Class 1</h5>
+
+                <a href="1.html" class="btn btn-primary">Click</a>
+            </div>
+        </div>
+    </div><div class="col-sm-2">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Class 2</h5>
+
+            <a href="#" class="btn btn-primary">Click</a>
+        </div>
+    </div>
+</div><div class="col-sm-2">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Class 3</h5>
+
+            <a href="#" class="btn btn-primary">Click</a>
+        </div>
+    </div>
+</div><div class="col-sm-2">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Class 4</h5>
+
+            <a href="#" class="btn btn-primary">Click</a>
+        </div>
+    </div>
+</div>
+</div>
+<br>
+<br><br><br>
+<!-- New column -->
+<div class="row">
+    <div class="col-sm-2">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Class 5</h5>
+                <!--    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                <a href="#" class="btn btn-primary">Click</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Class 6</h5>
+
+                <a href="#" class="btn btn-primary">Click</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Class 7</h5>
+
+                <a href="#" class="btn btn-primary">Click</a>
+            </div>
+        </div>
+    </div><div class="col-sm-2">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Class 8</h5>
+
+            <a href="#" class="btn btn-primary">Click</a>
+        </div>
+    </div>
+</div><div class="col-sm-2">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Class 9</h5>
+
+            <a href="#" class="btn btn-primary">Click</a>
+        </div>
+    </div>
+</div><div class="col-sm-2">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Class 10</h5>
+
+            <a href="#" class="btn btn-primary" >Click</a>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

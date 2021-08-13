@@ -1,0 +1,24 @@
+server:
+  port: 8080
+#Mysql database configuration
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate: org.hibernate.dialect.MySQL5Dialect
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/student
+    username: root
+    password: Mysql12345@
+
+#logging:
+#  level:
+#    org:
+#    hibernate:
+#      SQL: debug
+#      type:
+#      descriptor:
+#        sql: trace

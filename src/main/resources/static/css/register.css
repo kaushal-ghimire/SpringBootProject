@@ -1,0 +1,10 @@
+body{
+    background-image: url("../images/signup.jpeg");
+}
+.sub{
+    border: 0;
+    background-color: #ff1c19;
+    margin: 2%;
+    height: 40px;
+    width: 100px;
+}
